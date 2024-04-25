@@ -1,0 +1,27 @@
+/* buttonh.css */
+.button_slide {
+    color: #0d0d0d;
+    border: 2px solid #e31041;
+    border-radius: 15px;
+    padding:15px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 18px;
+font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #e31041;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    width: 300px;
+  }
+  .slide_left:hover {
+    box-shadow: inset 0 0 0 50px #e31041;
+  }
+  
+.outer {
+    /* width: 400px */
+    margin: 50px auto 0 auto;
+    text-align: center;
+  }

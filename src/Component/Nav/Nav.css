@@ -1,0 +1,14 @@
+.ani{
+    visibility: visible; animation-name: zoomInRight; animation-duration: 1500ms; animation-delay: 900ms;
+}
+.ani1{
+    visibility: visible; animation-name: bounceInLeft; animation-duration: 1500ms; animation-delay: 300ms;
+}
+.btn{
+    background-color: #e31041;
+}
+.bgnav{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(215, 202, 202, 0.5); 
+}
