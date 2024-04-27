@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Headtotoe/static/css/main.50a86427.css",
+    "main.js": "/Headtotoe/static/js/main.6977dd6b.js",
+    "static/js/453.57e0d0d9.chunk.js": "/Headtotoe/static/js/453.57e0d0d9.chunk.js",
+    "static/media/carousel1.mp4": "/Headtotoe/static/media/carousel1.ca7350590a878b6f5740.mp4",
+    "static/media/carousel2.mp4": "/Headtotoe/static/media/carousel2.2e794615c159671837dd.mp4",
+    "static/media/carousel3.mp4": "/Headtotoe/static/media/carousel3.180ece77a1940902d489.mp4",
+    "static/media/docs.jpg": "/Headtotoe/static/media/docs.cbcb549ea18fcb5c9ef0.jpg",
+    "static/media/TMJ-management.png": "/Headtotoe/static/media/TMJ-management.5ae0b6b8708ab4935a98.png",
+    "static/media/Pelvic-floor-rehabilitation.png": "/Headtotoe/static/media/Pelvic-floor-rehabilitation.3b92e84e62c468057700.png",
+    "static/media/Sports-rehabilitation.png": "/Headtotoe/static/media/Sports-rehabilitation.bb59d40121db2ad6fc00.png",
+    "static/media/Post-surgical-rehabilitation.png": "/Headtotoe/static/media/Post-surgical-rehabilitation.7639da72533e1c6838ee.png",
+    "static/media/Postural-correction.png": "/Headtotoe/static/media/Postural-correction.bafb18001806dc42dae2.png",
+    "static/media/Headache-management.png": "/Headtotoe/static/media/Headache-management.6a985337d85a69eb660c.png",
+    "static/media/womens-health.png": "/Headtotoe/static/media/womens-health.672307603ef16401ab2d.png",
+    "static/media/dr.priya.jpg": "/Headtotoe/static/media/dr.priya.1b01cf915694e54fff94.jpg",
+    "static/media/dr.prabu.jpeg": "/Headtotoe/static/media/dr.prabu.9eb641640c27ad759429.jpeg",
+    "static/media/logo-1.png": "/Headtotoe/static/media/logo-1.67f6bcffaf8e658ffca9.png",
+    "static/media/icon.png": "/Headtotoe/static/media/icon.eb66f8cfa38366f6395c.png",
+    "static/media/logo.png": "/Headtotoe/static/media/logo.526e1122f66f701e86d9.png",
+    "static/media/slick.svg": "/Headtotoe/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Headtotoe/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Headtotoe/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Headtotoe/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Headtotoe/index.html",
+    "main.50a86427.css.map": "/Headtotoe/static/css/main.50a86427.css.map",
+    "main.6977dd6b.js.map": "/Headtotoe/static/js/main.6977dd6b.js.map",
+    "453.57e0d0d9.chunk.js.map": "/Headtotoe/static/js/453.57e0d0d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50a86427.css",
+    "static/js/main.6977dd6b.js"
+  ]
+}
