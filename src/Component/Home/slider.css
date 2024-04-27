@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 .slider,
 .slider::before,
 .slider::after {
@@ -65,7 +67,7 @@
 
 .slide {
   transform-style: preserve-3d;
-   border: solid 1px #007bff;
+   border: solid 1px #2596be;
 
    &[data-active] {
      .slideContent > * {
@@ -93,6 +95,12 @@
 }
 
 .slideContentInner {
+  color: #e31041;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
   transform-style: preserve-3d;
   transform: translateZ(2rem);
   transition: opacity 0.3s linear;
@@ -101,8 +109,8 @@
 
   .slideSubtitle,
   .slideTitle {
-    font-size: 2rem;
-    font-weight: normal;
+    font-size: 2rem !important;
+    font-weight: bolder;
     letter-spacing: 0.2ch;
     text-transform: uppercase;
     margin: 0;
@@ -114,8 +122,8 @@
 
   .slideDescription {
     margin: 0;
-    font-size: 0.8rem;
-    letter-spacing: 0.2ch;
+    font-size:  3rem !important;
+    /* letter-spacing: 0.2ch; */
   }
 }
 

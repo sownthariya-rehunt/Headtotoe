@@ -1,36 +1,58 @@
 import React from 'react';
 import './slider.css'; // Make sure to import the CSS file
-
+import women from "../images/womens-health.png"
+import pelvic from "../images/Pelvic-floor-rehabilitation.png"
+import FemaleIcon from '@mui/icons-material/Female';
+import Postural from "../images/Post-surgical-rehabilitation.png"
+import MedicalServicesIcon from '@mui/icons-material/MedicalServices';
+import post from "../images/Postural-correction.png"
+import headache from "../images/Headache-management.png"
+import tmj from "../images/TMJ-management.png"
+import sports from "../images/Sports-rehabilitation.png"
+import SportsKabaddiIcon from '@mui/icons-material/SportsKabaddi';
+import WheelchairPickupIcon from '@mui/icons-material/WheelchairPickup';
 const slides = [
   {
-    title: "Machu Picchu",
-    subtitle: "Peru",
-    description: "Adventure is never far away",
-    image: "https://images.unsplash.com/photo-1571771019784-3ff35f4f4277?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+    title: "Women's Health Rehab " ,
+    subtitle:  '',
+    description: <FemaleIcon className='fs-1'/>,
+    image: women
   },
   {
-    title: "Chamonix",
-    subtitle: "France",
-    description: "Let your dreams come true",
-    image: "https://images.unsplash.com/photo-1581836499506-4a660b39478a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+    title: "Pelvic Floor Rehab",
+    subtitle: "",
+    description: <FemaleIcon className='fs-1'/>,
+    image:pelvic
   },
   {
-    title: "Mimisa Rocks",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image: "https://images.unsplash.com/photo-1566522650166-bd8b3e3a2b4b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+    title: "Post Surgical Rehab",
+    subtitle: "",
+    description: <WheelchairPickupIcon className='fs-1'/>,
+    image: Postural
   },
   {
-    title: "Four",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image: "https://images.unsplash.com/flagged/photo-1564918031455-72f4e35ba7a6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+    title: "Postural Correction",
+    subtitle: "",
+    description: <MedicalServicesIcon className='fs-1'/>,
+    image: post
   },
   {
-    title: "Five",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image: "https://images.unsplash.com/photo-1579130781921-76e18892b57b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+    title: "Headache Management",
+    subtitle: "",
+    description: <MedicalServicesIcon className='fs-1'/>,
+    image: headache
+  },
+  {
+    title: "TMJ Management",
+    subtitle: "",
+    description: <MedicalServicesIcon className='fs-1'/>,
+    image: tmj
+  },
+  {
+    title: "Sports Rehab",
+    subtitle: "",
+    description: <SportsKabaddiIcon className='fs-1'/>  ,
+    image: sports
   }
 ];
 
@@ -119,13 +141,13 @@ function Slide({ slide, offset }) {
       <div
         className="slideContent"
         style={{
-          backgroundImage: `url('${slide.image}')`
+          backgroundImage: `url('${slide.image}')`,width:300,height:400
         }}
       >
         <div className="slideContentInner">
-          <h2 className="slideTitle">{slide.title}</h2>
+          <h2 className="slideTitle fs-3 text-center">{slide.title}</h2>
           <h3 className="slideSubtitle">{slide.subtitle}</h3>
-          <p className="slideDescription">{slide.description}</p>
+          <h6 className="slideDescription text-center ">{slide.description}</h6>
         </div>
       </div>
     </div>

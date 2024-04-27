@@ -12,3 +12,6 @@
     backdrop-filter: blur(10px);
     background-color: rgba(215, 202, 202, 0.5); 
 }
+.indexnav{
+z-index:1000;
+}

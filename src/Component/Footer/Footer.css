@@ -1,0 +1,24 @@
+.bullet{
+    list-style-type:none;
+    margin-left: 5px;
+}
+
+.iconclr{
+    color:#e31041;
+}
+.iconclr1:hover{
+    transform: rotate(360deg);
+    transition: transform 0.1s ;
+}
+.bgfooter{
+    background-image: url("../images/footerbanner.jpeg");
+    background-size: cover;
+}
+/* 
+.bg-transparent {
+    background-color: transparent !important;
+    /* background-color: rgba(98, 64, 64, 0) !important; Fully transparent */
+    /* backdrop-filter: blur(300px) !important; */
+  /* } */
+  
+    

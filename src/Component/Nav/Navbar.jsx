@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
   
      
-    <div className='p-0 '>
-      <nav class="navbar navbar-expand-lg navbar-light bg-transprant p-0">
+    <div className='p-0  '>
+      <nav class="navbar navbar-expand-lg navbar-light bg-transprant p-0 indexnav">
   <div class="container-fluid bgnav">
     <a class="navbar-brand" href="#"><img src={logo} width={75}/></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

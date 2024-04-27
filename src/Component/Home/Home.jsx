@@ -4,10 +4,12 @@ import carousel2 from "../images/carousel2.mp4";
 import carousel1 from "../images/carousel1.mp4";
 import "./Home.css";
 import Buttonh from "../Buttonh/Buttonh";
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css'
-import "slick-carousel/slick/slick-theme.css"
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import SliderNew from "./SliderNew";
+import prabu from "../images/dr.prabu.jpeg";
+import priya from "../images/dr.priya.jpg";
 const Home = () => {
   const videoStyle = {
     height: "50vh", // Set the height to be half the viewport height
@@ -15,16 +17,14 @@ const Home = () => {
     objectFit: "cover", // Maintain aspect ratio and fill container
   };
 
-  const setting ={
-    dots:true,
-     infinite:true,
-     speed:500,
-     slidesToShow:3,
-     slideToScroll:2,
-     autoPlay:true
-  }
-
-  
+  const setting = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slideToScroll: 2,
+    autoPlay: true,
+  };
 
   return (
     <div>
@@ -156,7 +156,7 @@ const Home = () => {
       {/* -----------------welcome to head 2 toe */}
       <div className="container p-4">
         <div className="row">
-          <div className="col-lg-6 col-xl-6 bodybg ms-auto mx-auto p-4">
+          <div className="col-lg-6 col-xl-6  ms-auto mx-auto p-4">
             <div class="frame">
               <div class="text">
                 <span className="span1">❤</span>
@@ -236,12 +236,94 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="p-3">
-        <SliderNew/>
-        </div>
-       
       </div>
-      
+
+      {/* --------------slider our service ----------- */}
+      <div className="p-3 bgour ">
+        <h1 className="text-center p-5 hclr">Our Service </h1>
+        <SliderNew className="m-5" />
+      </div>
+      {/* ----------------about us----------- */}
+      <div className="bgdoc mb-4">
+        <div className="hclr text-center p-4">About Us</div>
+        <div className="">
+        <div className="container card bg-transprant mt-5 ">
+          <div className="row ">
+            <div className="col-lg-3 bg-transprant">
+              <img
+                src={prabu}
+                alt="HEAD2TOE Clinic in Coimbatore __ Best physiotherapy Clinic in Coimbatore"
+                className="col-12 rounded-circle p-5"
+              />
+              <p className="text-secondary fs-6 text-center">
+                Dr. Prabu BPT, MPT, CERT (DNT), MIAP{" "}
+                <span className="fw-bold ">(Founder)</span>
+              </p>
+            </div>
+            <div className="col-lg-9  text-secondary fw-bold p-5 fs-5">
+              <p>
+                &emsp; Dr.Prabu graduated with his Bachelor of Physiotherapy from PSG
+                College Of Physiotherapy (Coimbatore) in 2009 and completed his
+                Master of Physiotherapy in Orthopaedics at the Tamil Nadu Dr.
+                M.G.R. Medical University.               </p>
+                <p>
+               &emsp; Dr.Prabu is a Pain Specialist with
+                vast experience (14+ years) in the pain management field. He has
+                served as a chief physiotherapist in Sarva Shiksha Abhiyan
+                Central Government Scheme for paediatric disability children for
+                five years.
+
+                </p>
+            </div>
+          </div>
+        </div>
+        <div className="container bg-transprant card mt-5">
+          <div className="row">
+            <div className="col-lg-3 bg-transprant">
+              <img
+                src={priya}
+                alt="HEAD2TOE Clinic in Coimbatore __ Best physiotherapy Clinic in Coimbatore"
+                className="col-12 rounded-circle p-5"
+              />
+              <p className="text-secondary fs-6 text-center">
+                Dr. Priya Prabu BPT, MPT, CERT (DNT), CERT (PFR), MIAP
+                <span className="fw-bold">(Co-Founder)</span>
+              </p>
+            </div>
+            <div className="col-lg-9  text-secondary fw-bold p-5 fs-5">
+              <p>
+                Dr.Priya Prabu had graduated her Bachelor of Physiotherapy (BPT)
+                of Physiotherapy from PSG College Of Physiotherapy (Coimbatore)
+                in 2009 and Masters of Physiotherapy (MPT) in Orthopaedics under
+                the Tamil Nadu Dr. M.G.R. Medical University. She is a
+                Co-Founder of the Head 2 Toe Physiotherapy clinic with 14+ years
+                of hands on experience in Pain rehabilitation & women’s health
+                rehabilitation.
+              </p>
+              <p>
+                Choosing the right women's health physiotherapist is an
+                important decision women's health physiotherapist is an
+                important decision that can have a significant impact on women’s
+                health and well-being. At our clinic, we are proud to have one
+                of the best women's health physiotherapists in the city.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="m-5 p-4">
+          <Buttonh value="view More"/>
+        </div>
+
+        </div>
+
+        
+      </div>
+      <div>
+      <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-43b88b9f-f39c-49ae-bea9-d16ade93e3b1" data-elfsight-app-lazy></div>
+      </div>
+
     </div>
   );
 };
