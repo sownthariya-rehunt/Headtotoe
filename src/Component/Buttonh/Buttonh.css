@@ -14,7 +14,7 @@ font-weight: 500;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
-    width: 250px;
+    width: 350px;
     background-color: #2596be;
   }
   .slide_left:hover {

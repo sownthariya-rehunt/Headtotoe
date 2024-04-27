@@ -70,7 +70,7 @@ const Home = () => {
               <div className="carousel-banner bannerbg py-5 hh1">
                 <span class="word">
                   Treatment With Advance Manual
-                  <span class="superscript">s</span>{" "}
+                  <span class="superscript"></span>{" "}
                 </span>
                 <span class="word">
                   Therapy Techniques
@@ -93,7 +93,7 @@ const Home = () => {
               <div className="carousel-banner bannerbg py-5 hh1">
                 <span class="word">
                   Treatment With World Class Imported Equipment
-                  <span class="superscript">s</span>{" "}
+                  <span class="superscript"></span>{" "}
                 </span>
                 <span class="word">
                   Imported Equipment <br />{" "}
@@ -116,7 +116,7 @@ const Home = () => {
               <div className="carousel-banner bannerbg py-5 hh1">
                 <span class="word">
                   Treatment With Advance Manual
-                  <span class="superscript">s</span>{" "}
+                  <span class="superscript"></span>{" "}
                 </span>
                 <span class="word">
                   Therapy Techniques
